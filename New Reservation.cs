@@ -46,7 +46,7 @@ namespace Login_Form
             this.Hide();
         }
 
-        SqlConnection cn = new SqlConnection("Data Source=LAPTOP-U9ONR0HB\\SQLEXPRESS;Initial Catalog=CarRental;Integrated Security=True");
+        SqlConnection cn = new SqlConnection("Data Source=LAPTOP-xxxxxxxx\\SQLEXPRESS;Initial Catalog=CarRental;Integrated Security=True");
         SqlCommand cmd = new SqlCommand();
         SqlDataReader dr;
         private void btnSearch_Click(object sender, EventArgs e)
