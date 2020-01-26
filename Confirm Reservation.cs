@@ -56,7 +56,7 @@ namespace Login_Form
 
 
 
-        public String connStr = "Data Source=LAPTOP-U9ONR0HB\\SQLEXPRESS;Initial Catalog=CarRental;Integrated Security=True";
+        public String connStr = "Data Source=LAPTOP-xxxxxxxx\\SQLEXPRESS;Initial Catalog=CarRental;Integrated Security=True";
         private void btnConfirm_Click(object sender, EventArgs e)
         {
 
